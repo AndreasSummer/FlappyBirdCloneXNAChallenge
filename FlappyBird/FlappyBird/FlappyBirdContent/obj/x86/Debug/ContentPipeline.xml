@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Textures\background.png</Source>
+      <Name>Textures\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\background.xnb</Output>
+      <Time>2014-02-10T22:17:17.7516605+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\bird1.png</Source>
+      <Name>Textures\bird1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\bird1.xnb</Output>
+      <Time>2014-02-10T21:38:41.4301745+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\bird2.png</Source>
+      <Name>Textures\bird2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\bird2.xnb</Output>
+      <Time>2014-02-10T21:38:41.4311746+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\bird3.png</Source>
+      <Name>Textures\bird3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\bird3.xnb</Output>
+      <Time>2014-02-10T21:38:41.4311746+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\scroll.png</Source>
+      <Name>Textures\scroll</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\scroll.xnb</Output>
+      <Time>2014-02-10T21:38:41.4321746+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\tuyaux.png</Source>
+      <Name>Textures\tuyaux</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\tuyaux.xnb</Output>
+      <Time>2014-02-10T21:38:41.4321746+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\pixel.png</Source>
+      <Name>Textures\pixel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\pixel.xnb</Output>
+      <Time>2014-02-10T22:08:41.6181394+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\sand.png</Source>
+      <Name>Textures\sand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\sand.xnb</Output>
+      <Time>2014-02-10T22:17:16.8776106+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\font.spritefont</Source>
+      <Name>Fonts\font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Fonts\font.xnb</Output>
+      <Time>2014-02-10T22:32:33.9870662+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\gameover.png</Source>
+      <Name>Textures\gameover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\gameover.xnb</Output>
+      <Time>2014-02-10T22:47:16.6175498+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBirdContent\</RootDirectory>
+      <LoggerRootDirectory>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\</LoggerRootDirectory>
+      <IntermediateDirectory>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBirdContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-02-10T20:11:28.2518539+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

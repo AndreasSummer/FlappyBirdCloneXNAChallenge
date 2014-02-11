@@ -1,0 +1,16 @@
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\FlappyBird.exe
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\FlappyBird.pdb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\obj\x86\Debug\FlappyBird.exe
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\obj\x86\Debug\FlappyBird.pdb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\background.xnb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\bird1.xnb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\bird2.xnb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\bird3.xnb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\scroll.xnb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\tuyaux.xnb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\pixel.xnb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\sand.xnb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Fonts\font.xnb
+c:\users\mathieu\documents\visual studio 2010\Projects\FlappyBird\FlappyBird\FlappyBird\bin\x86\Debug\Content\Textures\gameover.xnb
