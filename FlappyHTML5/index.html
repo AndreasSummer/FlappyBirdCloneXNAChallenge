@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>JawsJS</title>
+        <style>
+            body {
+                text-align: center;
+                background-color: black;
+                margin:0;
+                padding:0;
+            }
+        canvas {
+            background-color: white;
+            margin-top : 20px;
+            border: 2px solid gray;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <canvas id="gameCanvas" width="400" height="600">
+            Votre navigateur n'est pas compatible !
+        </canvas>
+        
+        <script src="js/jaws-dynamic.js"></script>
+        <script>
+            
+            
+            (function () {
+
+                function GameState() {
+                    var background = new jaws.Background();
+                    var bird = new jaws.Bird();
+                    var gameover = null;
+                    var score = 0;
+                    var scoreText = null;
+                    var tuyaux = null;
+                    var tuyauxTimer = 2000;
+                    var tuyauxElapsed = 0;
+
+                    this.setup = function () {
+                        background.init();
+                        bird.init();
+
+                        gameover = new jaws.Sprite({ image: "img/gameover.png" });
+
+                        this.reset();
+                        scoreText = new jaws.Text({ text: "Score :" + score, x: 10, y: 30, color: "#ff0000", fontSize: "20" });
+
+                    }
+
+                    this.reset = function () {
+                        background.init();
+                        bird.init();
+
+                        tuyaux = new jaws.SpriteList();
+
+                        tuyaux.push(new jaws.Tuyaux());
+                        score = 0;
+                        tuyauxElapsed = 0;
+                    }
+
+
+                    this.tuyauxCreator = function () {
+                        tuyauxElapsed += jaws.game_loop.tick_duration;
+                        if (tuyauxElapsed > tuyauxTimer) {
+                            var tmp = new jaws.Tuyaux();
+                            tmp.init();
+                            tmp.id = tuyaux.length;
+                            tuyaux.push(tmp);
+                            tuyauxElapsed = 0;
+                        }
+
+                    }
+
+
+                    this.update = function () {
+                        this.tuyauxCreator();
+                        if (!bird.dead) {
+                            for (var i = tuyaux.length - 1; i > -1; i--) {
+                                if (tuyaux.at(i).sprite.x < -50)
+                                    tuyaux.remove(tuyaux.at(i));
+                                else {
+                                    tuyaux.at(i).update();
+                                    if (!tuyaux.at(i).scored && bird.sprite.x > tuyaux.at(i).sprite.x + 50) {
+                                        tuyaux.at(i).scored = true;
+                                        score++;
+                                    }
+
+                                    if ((bird.rect().collideRect(tuyaux.at(i).TopBound) || bird.rect().collideRect(tuyaux.at(i).BottomBound)) && jaws.collideOneWithOne(bird.sprite, tuyaux.at(i).sprite)) {
+                                        bird.dead = true;
+                                    }
+                                }
+
+                            }
+
+                            bird.update();
+                            background.update();
+                        }
+
+
+                        if (bird.dead && (jaws.pressed("r"))) {
+                            this.reset();
+                        }
+
+                        scoreText.text = "Score : " + score;
+
+                    }
+
+                    this.draw = function () {
+                        jaws.context.clearRect(0, 0, jaws.width, jaws.height);
+                        background.draw();
+
+
+                        for (var i = 0; i < tuyaux.length; i++)
+                            tuyaux.at(i).draw();
+
+                        bird.draw();
+                        scoreText.draw();
+
+                        if (bird.dead)
+                            gameover.draw();
+                    }
+                }
+
+
+
+
+                window.onload = function () {
+                    jaws.assets.add("img/background.png");
+                    jaws.assets.add("img/sand.png");
+                    jaws.assets.add("img/scroll.png");
+                    jaws.assets.add("img/bird1.png");
+                    jaws.assets.add("img/bird2.png");
+                    jaws.assets.add("img/bird3.png");
+                    jaws.assets.add("img/tuyaux.png");
+                    jaws.assets.add("img/gameover.png");
+                    jaws.assets.add("img/pixel.png");
+                    jaws.start(GameState, { fps: 60 });
+                }
+
+
+
+
+            })();
+             
+         
+
+            </script>
+        
+    </body>
+</html>
